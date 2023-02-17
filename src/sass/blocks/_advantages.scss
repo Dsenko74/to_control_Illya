@@ -12,13 +12,13 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: 940px;
+		/* width: 940px; задати питання Іллі чому тут заважає ця ширина, бо на 991 рх вона розлазиться*/
 		margin-top: 70px;
 	}
 	&__item {
 		display: flex;
 		flex-direction: column;
-	/* 	justify-content: space-between; */
+	/* 	justify-content: space-between; прибрав, тому що не верівнюється по центру по subheader */
 		width: 270px;
 		height: 245px;
 		img {
